@@ -41,7 +41,7 @@ The study evaluates the proposed model on three widely used IoT network intrusio
 
 1. [**IoTID20**](https://www.kaggle.com/datasets/rohulaminlabid/iotid20-dataset)
 
-- ** Source: Collected from home IoT devices (e.g., SKT NGU and EZVIZ Wi-Fi cameras).**
+- **Source: Collected from home IoT devices (e.g., SKT NGU and EZVIZ Wi-Fi cameras).**
 
 - **Size: 625,783 records with 86 features.**
 
