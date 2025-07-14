@@ -63,31 +63,31 @@ The study evaluates the proposed model on three widely used IoT network intrusio
 ### Preprocessing 
 The following steps were applied to all datasets for consistency and model compatibility:
 
-1. Label Standardization
+1. **Label Standardization**
 
-- **Converted labels into binary classes: Normal vs. Attack.**
+- Converted labels into binary classes: Normal vs. Attack.
 
-- **Applied label encoding for numerical representation.**
+- Applied label encoding for numerical representation.
   
-2. Data Cleaning
+2. **Data Cleaning**
 
-- **Removed columns with: Infinite or NaN values. Over 50% zero values (sparse features).**
+- **Removed columns with: Infinite or NaN values. Over 50% zero values (sparse features).
 
-- **Added a time index for temporal analysis.**
+- Added a time index for temporal analysis.
   
-3. Normalization
+3. **Normalization**
 
-- **Scaled features using MinMaxScaler to [0, 1] range.**
+- Scaled features using MinMaxScaler to [0, 1] range.
 
-4. Feature Extraction
+4. **Feature Extraction**
 
-- **Transformed raw signals into MFCCs (Mel-frequency cepstral coefficients) to capture spectral-temporal patterns.**
+- Transformed raw signals into MFCCs (Mel-frequency cepstral coefficients) to capture spectral-temporal patterns.
 
-- **Applied PCA for dimensionality reduction post-MFCC extraction.**
+- Applied PCA for dimensionality reduction post-MFCC extraction.
 
-5. Data Augmentation
+5. **Data Augmentation**
 
-- **Used sampling techniques (e.g., oversampling/undersampling) to address class imbalance.**
+- Used sampling techniques (e.g., oversampling/undersampling) to address class imbalance.
 The preprocessed data is aviable in code for the trained and evaulation purpose.
 
 ### Model Training
