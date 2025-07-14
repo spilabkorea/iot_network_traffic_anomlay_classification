@@ -13,7 +13,7 @@ Existing IDS face limitations in:
 
 3. Detection accuracy: Models often fail to distinguish subtle anomalies, especially in multiclass scenarios
 
-### Team Contributions
+### Contributions
 The paper proposes a novel MFCC-ResNet-18 framework for IoT intrusion detection, with four key contributions:
 
 1. Learnable MFCCs: Adaptive spectral feature extraction via trainable Mel filter banks and DCT, enhancing discriminative power.
