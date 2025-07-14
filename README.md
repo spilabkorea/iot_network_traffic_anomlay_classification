@@ -96,7 +96,7 @@ The preprocessed data is aviable in code for the trained and evaulation purpose.
 In this project, we have employed a ResNet18 with channel and spatial attention. The code is provided in the ipynb file to reproduced the results.
 ## Citation
 ```bibtex
-@article{lee2025efficientser,
+@article{lee2025spectral,
   author       = {HyeYoung Lee},
   title        = {Spectral Feature Extraction for Robust Network Intrusion Detection Using MFCCs},
   journal      = {arXiv preprint arXiv:2507.03251},
