@@ -23,3 +23,5 @@ The paper proposes a novel MFCC-ResNet-18 framework for IoT intrusion detection,
 3. State-of-the-art performance: Achieves 99.9% F1-score on IoTID20 and 100% on NSL-KDD, outperforming transformers and traditional ResNet.
 
 4. Theoretical innovation: Formulates MFCCs as a kernel method, linking feature extraction to kernel-based ML theory.
+
+![](Figures/arch.png?raw=true)
