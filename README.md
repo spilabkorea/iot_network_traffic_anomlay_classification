@@ -39,25 +39,25 @@ The study evaluates the proposed model on three widely used IoT network intrusio
 
 1. [**IoTID20**](https://www.kaggle.com/datasets/rohulaminlabid/iotid20-dataset)
 
-- **Source: Collected from home IoT devices (e.g., SKT NGU and EZVIZ Wi-Fi cameras).**
+- Source: Collected from home IoT devices (e.g., SKT NGU and EZVIZ Wi-Fi cameras).
 
-- **Size: 625,783 records with 86 features.**
+- Size: 625,783 records with 86 features.
 
-- **Attack Types: Includes various IoT-specific attacks.**
+- Attack Types: Includes various IoT-specific attacks.
 
 2. [**CICIoT2023**](https://www.kaggle.com/datasets/akashdogra/cic-iot-2023)
 
-- **Source: Simulated using 105 IoT devices.**
+- Source: Simulated using 105 IoT devices.
 
-- **Attack Types: 33 attacks grouped into 7 categories (DDoS, DoS, Mirai, Brute Force, Web-based, Spoofing, Recon)**
+- Attack Types: 33 attacks grouped into 7 categories (DDoS, DoS, Mirai, Brute Force, Web-based, Spoofing, Recon)
 
-- **Complexity: Designed for large-scale, realistic IoT attack scenarios.**
+- Complexity: Designed for large-scale, realistic IoT attack scenarios.
 
 3. [**NSL-KDD**](https://www.kaggle.com/datasets/hassan06/nslkdd)
 
-- **Source: Improved version of KDD CUP 1999, addressing redundancy and noise issues.**
+- Source: Improved version of KDD CUP 1999, addressing redundancy and noise issues.
 
-- **Attack Types: 5 categories (Normal, DoS, Probe, U2R, R2L).**
+- Attack Types: 5 categories (Normal, DoS, Probe, U2R, R2L).
 
 - **Usage: Benchmark for ML/DL-based IDS evaluation.**
 ### Preprocessing 
