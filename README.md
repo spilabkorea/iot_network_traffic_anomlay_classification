@@ -88,10 +88,24 @@ The following steps were applied to all datasets for consistency and model compa
 5. **Data Augmentation**
 
 - Used sampling techniques (e.g., oversampling/undersampling) to address class imbalance.
-The preprocessed data is aviable in code for the trained and evaulation purpose.
+-The preprocessed data is aviable in code for the training and evaulation purpose.
 
+## Installation
+
+To run the code, follow these steps:
+
+Clone the repository 
+
+```
+git@github.com:spilabkorea/iot_network_traffic_anomlay_classification.git
+```
+Install the libraries by the following command
+```
+conda env create -f environment.yml
+```
 ### Model Training
-In this project, we have employed a ResNet18 with channel and spatial attention. The code is provided in the ipynb file to reproduced the results.
+In this project, we have employed a ResNet18 with channel and spatial attention. The code is provided in the ipynb file to reproduced the results. 
+
 ## Citation
 ```bibtex
 @article{lee2025spectral,
