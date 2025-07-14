@@ -27,7 +27,7 @@ The paper proposes a novel MFCC-ResNet-18 framework for IoT intrusion detection,
 ![](Figures/arch.png?raw=true)
 
 ## Requirements
-- **Python 3.8+**
+- **Python 3.10.0**
 ### Python Packages
 - **Pytorch=2.7.1**
 - **numpy=2.2.6**
