@@ -115,3 +115,16 @@ In this project, we have employed a ResNet18 with channel and spatial attention.
   year         = {2025},
   url          = {}
 }
+```
+### Related Papers
+```bibtex
+@inproceedings{lee2025iot,
+  title={IoT Anomaly Detection with Sound-Based Spectral Analysis and Lightweight Model},
+  author={Lee, Hyeyoung and Nadeem, Muhammad},
+  booktitle={2025 IEEE International Conference on Big Data and Smart Computing (BigComp)},
+  pages={315--322},
+  year={2025},
+  organization={IEEE}
+}
+```
+- This paper used lightweight cnn Renet18 model using ptq quantization techniques. The model is tested on Raspberryi Pi using IoTID20, CICIoT2023, and NSL-KDD dataset.
