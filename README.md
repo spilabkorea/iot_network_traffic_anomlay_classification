@@ -71,7 +71,7 @@ The following steps were applied to all datasets for consistency and model compa
   
 2. **Data Cleaning**
 
-- **Removed columns with: Infinite or NaN values. Over 50% zero values (sparse features).
+- Removed columns with: Infinite or NaN values. Over 50% zero values (sparse features).
 
 - Added a time index for temporal analysis.
   
