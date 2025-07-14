@@ -37,3 +37,57 @@ The paper proposes a novel MFCC-ResNet-18 framework for IoT intrusion detection,
 - **tqdm**
 - **matplotlib**
 ### Benchmark Datasets 📝
+The study evaluates the proposed model on three widely used IoT network intrusion detection datasets:
+
+1. [**IoTID20**](https://www.kaggle.com/datasets/rohulaminlabid/iotid20-dataset)
+
+- ** Source: Collected from home IoT devices (e.g., SKT NGU and EZVIZ Wi-Fi cameras).**
+
+- **Size: 625,783 records with 86 features.**
+
+- **Attack Types: Includes various IoT-specific attacks.**
+
+2. [**CICIoT2023**](https://www.kaggle.com/datasets/akashdogra/cic-iot-2023)
+
+- **Source: Simulated using 105 IoT devices.**
+
+- **Attack Types: 33 attacks grouped into 7 categories (DDoS, DoS, Mirai, Brute Force, Web-based, Spoofing, Recon)**
+
+- **Complexity: Designed for large-scale, realistic IoT attack scenarios.**
+
+3. [**NSL-KDD**](https://www.kaggle.com/datasets/hassan06/nslkdd)
+
+- **Source: Improved version of KDD CUP 1999, addressing redundancy and noise issues.**
+
+- **Attack Types: 5 categories (Normal, DoS, Probe, U2R, R2L).**
+
+- **Usage: Benchmark for ML/DL-based IDS evaluation.**
+### Preprocessing 
+The following steps were applied to all datasets for consistency and model compatibility:
+
+1. Label Standardization
+
+- **Converted labels into binary classes: Normal vs. Attack.**
+
+- **Applied label encoding for numerical representation.**
+  
+2. Data Cleaning
+
+- **Removed columns with: Infinite or NaN values. Over 50% zero values (sparse features).**
+
+- **Added a time index for temporal analysis.**
+  
+3. Normalization
+
+- **Scaled features using MinMaxScaler to [0, 1] range.**
+
+4. Feature Extraction
+
+- **Transformed raw signals into MFCCs (Mel-frequency cepstral coefficients) to capture spectral-temporal patterns.**
+
+- **Applied PCA for dimensionality reduction post-MFCC extraction.**
+
+5. Data Augmentation
+
+- **Used sampling techniques (e.g., oversampling/undersampling) to address class imbalance.**
+The preprocessed data is aviable in code for the trained and evaulation purpose. 
