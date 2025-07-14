@@ -90,4 +90,16 @@ The following steps were applied to all datasets for consistency and model compa
 5. Data Augmentation
 
 - **Used sampling techniques (e.g., oversampling/undersampling) to address class imbalance.**
-The preprocessed data is aviable in code for the trained and evaulation purpose. 
+The preprocessed data is aviable in code for the trained and evaulation purpose.
+
+### Model Training
+In this project, we have employed a ResNet18 with channel and spatial attention. The code is provided in the ipynb file to reproduced the results.
+## Citation
+```bibtex
+@article{lee2025efficientser,
+  author       = {HyeYoung Lee},
+  title        = {Spectral Feature Extraction for Robust Network Intrusion Detection Using MFCCs},
+  journal      = {arXiv preprint arXiv:2507.03251},
+  year         = {2025},
+  url          = {}
+}
