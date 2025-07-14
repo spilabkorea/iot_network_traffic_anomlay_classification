@@ -25,3 +25,14 @@ The paper proposes a novel MFCC-ResNet-18 framework for IoT intrusion detection,
 4. Theoretical innovation: Formulates MFCCs as a kernel method, linking feature extraction to kernel-based ML theory.
 
 ![](Figures/arch.png?raw=true)
+
+## Requirements
+- **Python 3.8+**
+### Python Packages
+- **Pytorch**
+- **librosa**
+- **numpy**
+- **pandas**
+- **scikit-learn**
+- **tqdm**
+- **matplotlib**
