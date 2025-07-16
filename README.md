@@ -111,9 +111,9 @@ In this project, we have employed a ResNet18 with channel and spatial attention.
 @article{lee2025spectral,
   author       = {HyeYoung Lee},
   title        = {Spectral Feature Extraction for Robust Network Intrusion Detection Using MFCCs},
-  journal      = {arXiv preprint},
+  journal      = {arXiv:2507.10622},
   year         = {2025},
-  url          = {}
+  url          = {https://doi.org/10.48550/arXiv.2507.10622}
 }
 ```
 ### Related Papers
