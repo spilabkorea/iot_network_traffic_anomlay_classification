@@ -2,7 +2,7 @@
 
 ## Introduction
 ### Background
-The rapid expansion of Internet of Things (IoT) networks has introduced significant security vulnerabilities, as these networks often transmit sensitive data across interconnected devices. Common threats include Denial of Service (DoS), Distributed DoS (DDoS), spoofing, and data theft. Traditional security measures like firewalls and encryption are insufficient against evolving attacks, necessitating advanced Intrusion Detection Systems (IDS). Machine Learning (ML) and Deep Learning (DL) have emerged as powerful tools for IDS, but challenges remain in detecting novel attacks and handling noisy, high-dimensional IoT traffic data
+The rapid expansion of Internet of Things (IoT) networks has introduced significant security vulnerabilities, as these networks often transmit sensitive data across interconnected devices. Common threats include Denial of Service (DoS), Distributed DoS (DDoS), spoofing, and data theft. Traditional security measures like firewalls and encryption are insufficient against evolving attacks, necessitating advanced Intrusion Detection Systems (IDS). Machine Learning (ML) and Deep Learning (DL) have emerged as powerful tools for IDS, but challenges remain in detecting novel attacks and handling noisy, high-dimensional IoT traffic data.
 
 ### Problem Statement
 Existing IDS face limitations in:
@@ -11,7 +11,7 @@ Existing IDS face limitations in:
 
 2. Adaptability: Fixed feature representations (e.g., static MFCCs) may not generalize across diverse attack types.
 
-3. Detection accuracy: Models often fail to distinguish subtle anomalies, especially in multiclass scenarios
+3. Detection accuracy: Models often fail to distinguish subtle anomalies, especially in multiclass scenarios.
 
 ### Contributions
 The paper proposes a novel MFCC-ResNet-18 framework for IoT intrusion detection, with four key contributions:
